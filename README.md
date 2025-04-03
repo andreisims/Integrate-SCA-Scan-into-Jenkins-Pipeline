@@ -58,6 +58,17 @@ iv. Proceed to the Jenkins dashboard
 <li>click create</li>
 
 ### Now update the Jenkins Pipeline
+v. back to Jenkins dashboard. select the pipeline so we can update it.
+<li>select Configure</li>
+<li>we need to update the repo to your forked version of https://github.com/asecurityguru/devsecops-jenkins-k8s-tf-sast-sca-sonarcloud-snyk-repo in the Repository URL field</li>
 
+![Image](https://github.com/user-attachments/assets/18a212ab-8df0-4569-9571-2da5667b04c0)
+<li>click apply+save</li>
+
+#### run the Build
+vi. now that the build is updated, select Build Now on the dashboard.
+<li>as you can see, I made a typo in the Jenkinsfile</li>
+
+![Image](https://github.com/user-attachments/assets/1bd42a63-2038-4ec5-b7c8-8cbd3a838854)
 
 
