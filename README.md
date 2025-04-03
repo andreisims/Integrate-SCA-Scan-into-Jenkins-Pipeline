@@ -38,7 +38,26 @@ iii. Go back to the Snyk dashboard
 ![Image](https://github.com/user-attachments/assets/9631d9f2-9865-4cf3-80ec-4ea3c0ec9d50)
 <li>copy the key to your notepad</li>
 
+### Add the Token to Jenkins
+iv. Proceed to the Jenkins dashboard
+<li>Select Manage Jenkins</li>
+<li>Then Credentials</li>
+<li>Then System</li>
+<li>and then select Global Credentials</li>
 
+![Image](https://github.com/user-attachments/assets/6ef97fda-af5f-45ea-96d1-563215d9a6df)
+
+#### add credentials
+<li>in the Kind field select 'secret text'</li>
+<li>paste the snyk key value into the Secret field.</li>
+<li>in the ID and Description fields, enter the same name from the jenkinsfile "SNYK_TOKEN". should be in all caps, same as in the file</li>
+
+![Image](https://github.com/user-attachments/assets/e5679a28-bc05-46bc-8f05-faeb6c63573c)
+
+![Image](https://github.com/user-attachments/assets/a0f85c0e-cd8e-4627-8307-153de7745084)
+<li>click create</li>
+
+### Now update the Jenkins Pipeline
 
 
 
