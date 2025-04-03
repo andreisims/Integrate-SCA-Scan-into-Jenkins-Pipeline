@@ -70,5 +70,17 @@ vi. now that the build is updated, select Build Now on the dashboard.
 <li>as you can see, I made a typo in the Jenkinsfile</li>
 
 ![Image](https://github.com/user-attachments/assets/1bd42a63-2038-4ec5-b7c8-8cbd3a838854)
+<li>edit the file with the correct Maven version and run Build Now again</li>
 
+![Image](https://github.com/user-attachments/assets/40ba1f1c-d93b-47bd-b8db-1e74b778d3e7)
+<li>the build failed because of the errors in the dependencies</li>
 
+![Image](https://github.com/user-attachments/assets/5c0304fd-a9fb-4d37-aa17-8585a7cbee55)
+<li>but the Jenkins build was successful</li>
+
+![Image](https://github.com/user-attachments/assets/825ffad7-621b-4840-8292-84aea67f8b30)
+<li>the Snyk file also outlines steps for remediation, by upgrading</li>
+
+![Image](https://github.com/user-attachments/assets/ebff9ef7-5f1b-4860-a289-a6b45d109169)
+
+SUCCESS! You can now destroy the build and repeat as needed. Hope it was helpful.
